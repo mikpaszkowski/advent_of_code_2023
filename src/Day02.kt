@@ -12,7 +12,7 @@ fun main() {
 
     val colors = arrayOf("red", "green", "blue")
 
-    val input = readInput("data")
+    val input = readInput("data-02")
 
     fun checkAndGetIdIfPossible(line: String): Int {
         var trimmedLine = line.substring(5)
@@ -126,8 +126,8 @@ fun main() {
         return sum
     }
 
-//    val p1_result = p1()
+    val p1_result = p1()
     val p2_result = p2()
-//    println(p1_result)
+    println(p1_result)
     println(p2_result)
 }
